@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+ body >div{
+    width: 100vm;
+    height: 100vh;
+}
+.dvd{   
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: dvd;    
+    animation-duration: 43s;
+    animation-iteration-count: infinite;
+}
+@keyframes dvd{
+    0% {background-color:red; left: 20%; top: 38%; }
+    10% {background-color: yellow; left: 55%; top: 100%; transform: translate(0%,-100%)}
+    20% {background-color: green; left: 100%; top:20%;transform: translate(-100%,0%);}
+    30% {background-color: blue; left: 80%; top: 0%; transform: translate(0%,0%); }
+    40% {background-color: brown; left: 20%; top:100%;transform: translate(0%,-100%);}
+    50% {background-color: orange; left: 0%; top: 70%; transform: translate(0%,0%);}
+    60% {background-color: wheat; top: 0%; left:44%; transform: translate(0%,0%);}
+    80% {background-color: turquoise; top: 100%; left: 87%; transform: translate(0%,-100%);}
+    90% {background-color: crimson; top:70%; left:100%; transform:translate(-100%,0%)}
+    100%{background-color: red; top: 50%;left: 50%; transform: translate(0%,0%);}
+   
+}
